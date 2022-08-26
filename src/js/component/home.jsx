@@ -10,7 +10,7 @@ const Home = (props) => {
     return (
         <div className="text-center d-flex justify-content-center">
             <div className="bigCounter d-flex fs-1 gap-4 text-light bg-black w-25 justify-content-center">
-                <div className="Clock ps-5"><i class="fa-regular fa-clock"></i></div>
+                <div className="Clock ps-5"><i className="fa-regular fa-clock"></i></div>
                 <div className="Seis">{props.digitSix % 10}</div>
                 <div className="Cinco">{props.digitFive % 10}</div>
                 <div className="Cuatro">{props.digitFour % 10}</div>
